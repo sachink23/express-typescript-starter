@@ -1,0 +1,36 @@
+{
+  "name": "express-typescript-starter",
+  "version": "1.0.0",
+  "description": "Starter template for using typescript with express framework",
+  "main": "./dist/bin/www.js",
+  "scripts": {
+    "start": "node ./dist/bin/www.js",
+    "dev": "nodemon ./src/bin/www.ts",
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sachink23/express-typescript-starter.git"
+  },
+  "keywords": [
+    "express-js",
+    "typescript"
+  ],
+  "author": "Sachin Kekarjawalekar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sachink23/express-typescript-starter/issues"
+  },
+  "homepage": "https://github.com/sachink23/express-typescript-starter#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.7",
+    "@types/node": "^14.0.24",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
